@@ -1,0 +1,34 @@
+Copy code
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add styles for your header content (e.g., text color, font-size, etc.) */
+}
