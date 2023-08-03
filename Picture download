@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picture Download Button</title>
+</head>
+<body>
+  <img id="image" src="path/to/your/image.jpg" alt="Image">
+  <button id="downloadBtn">Download Picture</button>
+</body>
+</html>
