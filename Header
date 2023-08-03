@@ -1,0 +1,16 @@
+<head>
+    <title>Video Background Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="your-video-file.mp4" type="video/mp4">
+                <!-- Add additional sources for other formats like WebM if needed -->
+            </video>
+            <div class="header-content">
+                <!-- Add your header content here (e.g., logo, navigation) -->
+            </div>
+        </div>
+    </header>
